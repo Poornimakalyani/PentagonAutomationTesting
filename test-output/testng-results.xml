@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Beforesuite is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[BeforeTest is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[Beforeclass is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[BeforeMethod is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[MainMethod is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[AfterMethod is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[AfterClass is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[BeforeTest is getting Launched]]>
+    </line>
+    <line>
+      <![CDATA[Aftersuite is getting Launched]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-19T14:09:44 IST" name="Default suite" finished-at="2024-11-19T14:09:44 IST" duration-ms="152">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T14:09:44 IST" name="Default test" finished-at="2024-11-19T14:09:44 IST" duration-ms="152">
+      <class name="Chronology.Order_Of_Chronology">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="beforesuite" finished-at="2024-11-19T14:09:44 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Beforesuite is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="Beforetest()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="Beforetest" finished-at="2024-11-19T14:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeTest is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Beforetest -->
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="Beforeclass" finished-at="2024-11-19T14:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Beforeclass is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="beforeMethod" finished-at="2024-11-19T14:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeMethod is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mainMethod()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="mainMethod" finished-at="2024-11-19T14:09:44 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[MainMethod is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mainMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="afterMethod" finished-at="2024-11-19T14:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterMethod is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="Afterclass" finished-at="2024-11-19T14:09:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AfterClass is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+        <test-method is-config="true" signature="Aftertest()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="Aftertest" finished-at="2024-11-19T14:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BeforeTest is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:Chronology.Order_Of_Chronology@1b7cc17c]" started-at="2024-11-19T14:09:44 IST" name="Aftersuite" finished-at="2024-11-19T14:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Aftersuite is getting Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- Chronology.Order_Of_Chronology -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

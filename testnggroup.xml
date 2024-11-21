@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suitegroup">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+
+  <include name="System"></include>
+  <include name="Smoke"></include>
+  <exclude name="Functional"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="TestNGExecution.Batch5"/>
+      <class name="TestNGExecution.Batch4"/>
+      <class name="TestNGExecution.Batch3"/>
+      <class name="TestNGExecution.Batch2"/>
+      <class name="TestNGExecution.Batch1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suitegroup -->
