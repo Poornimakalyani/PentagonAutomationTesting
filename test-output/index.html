@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1945739141\testng-customsuite.xml</span>
+                    <span>C:\Users\Admin\AppData\Local\Temp\testng-eclipse--583263564\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Chronology.Order_Of_Chronology" class="method navigator-link" hash-for-method="mainMethod">mainMethod</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="TestNG.DataProvider" class="method navigator-link" hash-for-method="senddata(Lavanya, lavanya@3455)">senddata(Lavanya, lavanya@3455)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNG.DataProvider" class="method navigator-link" hash-for-method="senddata(Jayalaxmi, jaya@123)">senddata(Jayalaxmi, jaya@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNG.DataProvider" class="method navigator-link" hash-for-method="senddata(Poornima, poorni@199)">senddata(Poornima, poorni@199)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TestNG.DataProvider" class="method navigator-link" hash-for-method="senddata(Rithika, rithi@1234)">senddata(Rithika, rithi@1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +137,39 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Chronology.Order_Of_Chronology</span>
+              <span class="class-name">TestNG.DataProvider</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="mainMethod">
-                  </a> <!-- mainMethod -->
-                  <span class="method-name">mainMethod</span>
+                  <a name="senddata(Lavanya, lavanya@3455)">
+                  </a> <!-- senddata(Lavanya, lavanya@3455) -->
+                  <span class="method-name">senddata</span>
+                  <span class="parameters">(Lavanya, lavanya@3455)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="senddata(Jayalaxmi, jaya@123)">
+                  </a> <!-- senddata(Jayalaxmi, jaya@123) -->
+                  <span class="method-name">senddata</span>
+                  <span class="parameters">(Jayalaxmi, jaya@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="senddata(Poornima, poorni@199)">
+                  </a> <!-- senddata(Poornima, poorni@199) -->
+                  <span class="method-name">senddata</span>
+                  <span class="parameters">(Poornima, poorni@199)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="senddata(Rithika, rithi@1234)">
+                  </a> <!-- senddata(Rithika, rithi@1234) -->
+                  <span class="method-name">senddata</span>
+                  <span class="parameters">(Rithika, rithi@1234)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +177,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--1945739141\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Admin\AppData\Local\Temp\testng-eclipse--583263564\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +186,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Chronology.Order_Of_Chronology&quot;/&gt;
+      &lt;class name=&quot;TestNG.DataProvider&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,16 +226,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'mainMethod')
-data.setCell(0, 2, 'Chronology.Order_Of_Chronology')
-data.setCell(0, 3, 32);
+data.setCell(0, 1, 'senddata')
+data.setCell(0, 2, 'TestNG.DataProvider')
+data.setCell(0, 3, 12804);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'senddata')
+data.setCell(1, 2, 'TestNG.DataProvider')
+data.setCell(1, 3, 12406);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'senddata')
+data.setCell(2, 2, 'TestNG.DataProvider')
+data.setCell(2, 3, 12034);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'senddata')
+data.setCell(3, 2, 'TestNG.DataProvider')
+data.setCell(3, 3, 6423);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -206,12 +258,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">mainMethod</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">MainMethod is getting Launched</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -227,43 +273,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Chronology.Order_Of_Chronology</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">beforesuite</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
-              <div class="configuration-test before">
-                <span class="method-name">Beforetest</span>
-                <span class="method-start">38 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">Beforeclass</span>
-                <span class="method-start">87 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">127 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">TestNG.DataProvider</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">mainMethod</span>
-                <span class="method-start">130 ms</span>
+                <span class="method-name">senddata(Jayalaxmi, jaya@123)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">170 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">Afterclass</span>
-                <span class="method-start">175 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">Aftertest</span>
-                <span class="method-start">181 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-suite after">
-                <span class="method-name">Aftersuite</span>
-                <span class="method-start">394 ms</span>
-              </div> <!-- configuration-suite after -->
+              <div class="test-method">
+                <span class="method-name">senddata(Rithika, rithi@1234)</span>
+                <span class="method-start">12039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">senddata(Poornima, poorni@199)</span>
+                <span class="method-start">24844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">senddata(Lavanya, lavanya@3455)</span>
+                <span class="method-start">31269 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

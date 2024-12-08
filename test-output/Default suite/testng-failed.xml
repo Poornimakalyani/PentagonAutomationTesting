@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Thread">
+      <class name="TestNG.Attributes">
         <methods>
+          <include name="Dominos"/>
+          <include name="Swiggy"/>
           <include name="Olafoods"/>
+          <include name="Zomato"/>
         </methods>
-      </class> <!-- TestNG.Thread -->
+      </class> <!-- TestNG.Attributes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

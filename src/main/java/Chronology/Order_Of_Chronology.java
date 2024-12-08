@@ -28,7 +28,7 @@ public class Order_Of_Chronology {
 	}
 	@AfterTest
 	public void Aftertest() {
-		Reporter.log("BeforeTest is getting Launched",true);
+		Reporter.log("AfterTest is getting Launched",true);
 	}
 	@BeforeClass
 	public void Beforeclass() {
